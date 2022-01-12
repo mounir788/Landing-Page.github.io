@@ -9,6 +9,7 @@ body {
   background-color: #fff;
   background-image: url(../img/Strip-Patterns.png);
   background-size: cover;
+  overflow: hidden;
 }
 .container {
   margin-left: 50px;
@@ -134,7 +135,10 @@ header .container ul li:hover a::before {
 /* Start Footer */
 footer {
   position: absolute;
-  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 20px;
 }
 .social-links {
   width: 262px;
